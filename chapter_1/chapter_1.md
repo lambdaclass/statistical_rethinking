@@ -1,4 +1,4 @@
-#Chapter 1:
+# Chapter 1:
 
 - Classical procedures tend to be inflexible and fragile: they often break or are unpredictable when applied to new contexts. So classical tools are not diverse enough to handle many frequent and interesting questions about models or data.
 
