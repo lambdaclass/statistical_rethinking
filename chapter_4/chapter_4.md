@@ -9,9 +9,7 @@
     - By the epistemological justification, the Gaussian represents a particular state of ignorance. When all we know or are willing to say about a distribution of measures (measures are continuous values on the real number line) is their mean and variance, then the Gaussian distribution arises as the most consistent with our assumptions.
 - The linear model strategy: the strategy is to make the parameter for the mean of a Gaussian distribution, μ, into a linear function of the predictor variable x and other new parameters that we build.  The relationship between the mean and the other variables is deterministic, not stochastic.
 - The mean μ is no longer a parameter to be estimated. Rather, μi is constructed from other parameters, α and β, and the observed variable x. This line is not a stochastic relationship—there is no ∼ in it, but rather an = in it because the definition of μi is deterministic. That is to say that, once we know α and β and xi, we know μi with certainty.
-<img src = "images/image_1.png" width = "300">
-
-
+<img src = "images/image_1.png" width = "200">
 What this tells the regression model is that you are asking two questions about the mean of the outcome:
     - What is the expected height when xi =  ̄x? The parameter α answers this question, because when xi =  ̄x, μi = α. For this reason, α is often called the intercept. But we should think not in terms of some abstract line, but rather in terms of the meaning with respect to the observable variables.
     - What is the change in expected height, when xi changes by 1 unit? The parameter β answers this question. It is often called a “slope,” again because of the abstract line. Better to think of it as a rate of change in expectation.
