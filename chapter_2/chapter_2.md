@@ -2,7 +2,7 @@
 
 * Bayesian methods are expensive and depend upon having a good model.
 
-* Principle of indifference: cosists in weighing all conjectures equally. The structure of the model and the scientific context always provide information that allow us to do better than ignorance.
+* Principle of indifference: it consists in weighing all conjectures equally. The structure of the model and the scientific context always provide information that allow us to do better than ignorance.
 
 * Unobservable variables are often called parameters.
 
@@ -35,7 +35,7 @@ Prob(conj-5) = 0
 
 $Pr(p|W, L) = \frac{Pr(W,L|p)Pr(p)}{Pr(W,L)}$
 
-This says that the probability of any particular value of p, considering the data, is equal to the product of the relative plausibility of the data, conditional on p, and the prior plausibility of p, divided by Pr(W, L), the average probability of the data. This average is  done over all possible likelihood distributions with the different possibilities given by the prior.
+This says that the probability of any particular value of p, considering the data, is equal to the product of the relative plausibility of the data, conditional on p, and the prior plausibility of p, divided by Pr(W, L), the average probability of the data. This average is done over all possible likelihood distributions with the different possibilities given by the prior.
 
 $Posterior = \frac{\textrm{Probability of the data x Prior}}{\textrm{Average probability of the data}}$
 
